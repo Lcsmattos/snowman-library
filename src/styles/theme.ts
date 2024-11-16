@@ -6,6 +6,7 @@ export const theme = {
     textPrimary: "#1f2937", // Preto suave
     textSecondary: "#6b7280", // Cinza médio
     highlight: "#60a5fa", // Azul suave para destaques
+    highlightSecondary: "#7799a5",
     accent: "#e5e7eb", // Cinza claro para bordas ou áreas de suporte
     white: "#ffffff", //branco puro
   },
