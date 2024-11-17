@@ -1,6 +1,8 @@
+import { useTranslation } from "react-i18next";
 import { Book } from "../../types/Book";
 
 import {
+  AmountText,
   BookImg,
   Button,
   ButtonContainer,
@@ -19,6 +21,8 @@ type Props = {
 };
 
 export function Modal({ isOpen, onClose, book }: Props) {
+  const { t } = useTranslation();
+
   if (!isOpen) return null;
 
   return (
@@ -27,20 +31,24 @@ export function Modal({ isOpen, onClose, book }: Props) {
         <CloseButton onClick={onClose}>&times;</CloseButton>
         <ModalHeader>
           <BookImg src={book.image_url} />
-          <Title>{book.title}</Title>
+          <Title>{t(`book.${book.title}`)}</Title>
         </ModalHeader>
 
         <Info>
-          <strong>Autor:</strong> {book.author}
+          <strong>{t("cards.author")}:</strong> {book.author}
         </Info>
         <Info>
-          <strong>Descrição:</strong> {book.synopsis}
+          <strong>{t("cards.sinopse")}:</strong> {book.synopsis}
         </Info>
         <Info>
-          <strong>Ano de Publicação:</strong> {book.publication_year}
+          <strong>{t("cards.year_of_publication")}:</strong>{" "}
+          {book.publication_year}
         </Info>
 
         <ButtonContainer>
+          <AmountText>
+            <strong>R$</strong> {book.price}
+          </AmountText>
           <Button onClick={() => alert("Encaminhado para login e reserva !")}>
             Alugar
           </Button>

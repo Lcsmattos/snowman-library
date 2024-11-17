@@ -1,4 +1,7 @@
+import { useTranslation } from "react-i18next";
+
 import SnowmanLogo from "../../assets/snowman-logo.png";
+import { LanguageSelector } from "../LanguageSelector";
 import { SearchBar } from "../SearchBar";
 
 import {
@@ -12,10 +15,13 @@ import {
 } from "./styles";
 
 export function Header() {
+  const { t } = useTranslation();
+
   return (
     <HeaderContainer>
       <TopContainer>
         <SearchBar />
+        <LanguageSelector />
       </TopContainer>
 
       <LogoAndTextContainer>
@@ -23,7 +29,7 @@ export function Header() {
           <HeaderTextTitle>
             Snowman <br /> Library
           </HeaderTextTitle>
-          <HeaderTextSubTitle>renting books</HeaderTextSubTitle>
+          <HeaderTextSubTitle>{t("header.subtitle")}</HeaderTextSubTitle>
         </TextContainer>
         <LogoImg src={SnowmanLogo} alt="Snowman Library Logo" />
       </LogoAndTextContainer>
