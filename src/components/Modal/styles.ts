@@ -63,7 +63,8 @@ export const ButtonContainer = styled.div`
   display: flex;
   flex: 1;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
+  margin-top: 20px;
 `;
 
 export const Button = styled.button`
@@ -84,3 +85,5 @@ export const Button = styled.button`
     transform: scale(1.05);
   }
 `;
+
+export const AmountText = styled.text``;
