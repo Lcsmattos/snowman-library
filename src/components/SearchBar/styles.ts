@@ -18,8 +18,10 @@ export const SearchContainer = styled.div`
 export const SearchInput = styled.input`
   background-color: lightgray;
   padding-left: 0.6rem;
+  width: 15rem;
   border: none;
   outline: none;
+  text-align: center;
 `;
 
 export const SearchIcon = styled.img`
