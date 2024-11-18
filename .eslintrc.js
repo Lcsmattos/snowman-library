@@ -3,6 +3,7 @@ module.exports = {
     browser: true,
     es2021: true,
     node: true,
+    'cypress/globals': true,
   },
   extends: [
     "eslint:recommended",
@@ -16,7 +17,7 @@ module.exports = {
     ecmaVersion: "latest",
     sourceType: "module",
   },
-  plugins: ["react", "@typescript-eslint"],
+  plugins: ["react", "@typescript-eslint", "cypress"],
   rules: {
     "@typescript-eslint/ban-ts-comment": "off",
   },
