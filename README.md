@@ -67,17 +67,17 @@ Os dados de livros e fluxos de aluguel estão simulados com mocks localizados em
 
 # **Dependências Principais**
 
-•**React e Typescript**: Base do projeto.
-•**Styled-components**: Estilização dinâmica.
-•**Axios**: Simulação de requisições API.
-•**React-hook-form e Yup**: Manipulação e validação de formulários.
-•**React-i18next**: Internacionalização.
-•**React-router-dom**: Navegação.
+- **React e Typescript**: Base do projeto.
+- **Styled-components**: Estilização dinâmica.
+- **Axios**: Simulação de requisições API.
+- **React-hook-form e Yup**: Manipulação e validação de formulários.
+- **React-i18next**: Internacionalização.
+- **React-router-dom**: Navegação.
 
 # **DevDependencies**
 
-•**Cypress**: Testes end-to-end.
-•**ESLint e Prettier**: Padrões de código e formatação.
+- **Cypress**: Testes end-to-end.
+- **ESLint e Prettier**: Padrões de código e formatação.
 
 ---
 
@@ -85,10 +85,10 @@ Os dados de livros e fluxos de aluguel estão simulados com mocks localizados em
 
 A arquitetura segue um padrão modular com separação de responsabilidades, utilizando contextos para manipulação global de estados.
 
-cypress # Testes
-src/
-├── assets/ # Imagens do projeto
-├── components/ # Componentes reutilizáveis
+cypress # Testes  
+src/  
+├── assets/ # Imagens do projeto  
+├── components/ # Componentes reutilizáveis  
 ├── contexts/ # Gerenciamento de estado global
 ├── i18n/ # Textos da internacionalização
 ├── mocks/ # Simulação de dados
@@ -109,10 +109,10 @@ A responsividade foi implementada com **Flexbox** e **Media Queries**, garantind
 
 ## **Internacionalização**
 
-•Idiomas suportados:
-•Português (pt-BR)
-•Inglês (en-US)
-•Traduções dos textos em src/i18n.
+- Idiomas suportados:
+  - Português (pt-BR)
+  - Inglês (en-US)
+- Traduções dos textos em src/i18n.
 
 ---
 
