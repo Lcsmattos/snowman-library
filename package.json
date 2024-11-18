@@ -15,7 +15,6 @@
     "@emotion/styled": "^11.13.0",
     "@hookform/resolvers": "^3.9.1",
     "@mui/icons-material": "^6.1.7",
-    "@mui/material": "^6.1.7",
     "@types/jest": "^27.5.2",
     "@types/node": "^16.18.119",
     "@types/react": "^18.3.12",
@@ -45,8 +44,6 @@
     "eslint": "^8.57.1",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-prettier": "^5.2.1",
-    "husky": "^9.1.6",
-    "jest": "^27.5.1",
     "jest-styled-components": "^7.2.0",
     "lint-staged": "^15.2.10",
     "prettier": "^3.3.3"
@@ -68,11 +65,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
   },
   "lint-staged": {
     "src/**/*.{js,jsx,ts,tsx}": [
