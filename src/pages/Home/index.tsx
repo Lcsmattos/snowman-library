@@ -1,13 +1,14 @@
+import { useEffect } from "react";
+
+import { Loading } from "../../components/Loading";
+import { NotFound } from "../../components/NotFound";
 import { Header } from "../../components/Header";
 import { Footer } from "../../components/Footer";
 import { BookCard } from "../../components/BookCard";
 
-import { BodyContainer } from "./styles";
-
-import { useEffect } from "react";
-import Loading from "../../components/Loading";
 import { useBooks } from "../../context/useBooks";
-import { NotFound } from "../../components/NotFound";
+
+import { BodyContainer } from "./styles";
 
 export function Home() {
   const { books, fetchBooks, loading } = useBooks();

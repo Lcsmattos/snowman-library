@@ -3,6 +3,7 @@ export const theme = {
     primary: "#365052", // verde escuro
     secondary: "#3a7470", // verde claro
     background: "#f0f4f8", // Cinza bem claro
+    backgroundLogin: "#e5e7eb", // Cinza bem claro
     textPrimary: "#1f2937", // Preto suave
     textSecondary: "#6b7280", // Cinza médio
     highlight: "#60a5fa", // Azul suave para destaques
