@@ -1,4 +1,5 @@
-import { useState } from "react";
+import { DetailedHTMLProps, HTMLAttributes, useState } from "react";
+import { useTranslation } from "react-i18next";
 
 import { Book } from "../../types/Book";
 import { Modal } from "../Modal";
@@ -10,18 +11,24 @@ import {
   InfoContainer,
   InfoText,
 } from "./styles";
-import { useTranslation } from "react-i18next";
 
-type Props = {
+type Props = DetailedHTMLProps<
+  HTMLAttributes<HTMLDivElement>,
+  HTMLDivElement
+> & {
   book: Book;
 };
 
-export function BookCard({ book }: Props) {
+export function BookCard({ book, ...rest }: Props) {
   const [isModalOpen, setIsModalOpen] = useState<boolean>(false);
   const { t } = useTranslation();
   return (
     <>
-      <BookContainer img={book.image_url} onClick={() => setIsModalOpen(true)}>
+      <BookContainer
+        img={book.image_url}
+        onClick={() => setIsModalOpen(true)}
+        {...rest}
+      >
         <BookTitle>{t(`book.${book.title}`)}</BookTitle>
         <BookImg src={book.image_url} />
         <InfoContainer>

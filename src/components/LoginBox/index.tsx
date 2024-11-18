@@ -1,5 +1,7 @@
 import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
+import { useTranslation } from "react-i18next";
+
 import { SchemaLoginUser } from "../../utils/yupValidations/login";
 
 import { Input } from "../Input";
@@ -20,6 +22,8 @@ type LoginFormData = {
 };
 
 export function LoginBox() {
+  const { t } = useTranslation();
+
   const {
     control,
     handleSubmit,
@@ -30,19 +34,27 @@ export function LoginBox() {
 
   return (
     <LoginContainer>
-      <TitleText>Acesse sua conta</TitleText>
+      <TitleText>{t("loginBox.header")}</TitleText>
       <InputContainer>
         <Input
           name="email"
-          errorMessage={errors.email?.message}
+          errorMessage={
+            errors.email?.message
+              ? t(`errorMessages.${errors.email?.message}`)
+              : undefined
+          }
           control={control}
           label="Email"
         />
         <Input
           name="password"
-          errorMessage={errors.password?.message}
+          errorMessage={
+            errors.password?.message
+              ? t(`errorMessages.${errors.password?.message}`)
+              : undefined
+          }
           control={control}
-          label="Senha"
+          label={t("loginBox.password")}
           passwordType
         />
       </InputContainer>
@@ -52,13 +64,13 @@ export function LoginBox() {
           alert(`Redireciona para o carrinho ${e.email}, ${e.password} `);
         })}
       >
-        Login
+        {t("loginBox.login")}
       </LoginButton>
 
       <StyledDivider />
 
       <>
-        <ButtonText>Login Com</ButtonText>
+        <ButtonText>{t("loginBox.login_with")}</ButtonText>
         <Button onClick={() => alert("Redireciona login com google")} />
       </>
     </LoginContainer>

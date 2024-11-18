@@ -1,4 +1,8 @@
 import { useTranslation } from "react-i18next";
+import { useNavigate } from "react-router-dom";
+
+import { useBooks } from "../../context/useBooks";
+
 import { Book } from "../../types/Book";
 
 import {
@@ -22,12 +26,14 @@ type Props = {
 
 export function Modal({ isOpen, onClose, book }: Props) {
   const { t } = useTranslation();
+  const { setBooksInCart, booksInCart } = useBooks();
+  const navigate = useNavigate();
 
   if (!isOpen) return null;
 
   return (
     <Overlay>
-      <ModalContainer>
+      <ModalContainer className="modal">
         <CloseButton onClick={onClose}>&times;</CloseButton>
         <ModalHeader>
           <BookImg src={book.image_url} />
@@ -49,7 +55,15 @@ export function Modal({ isOpen, onClose, book }: Props) {
           <AmountText>
             <strong>R$</strong> {book.price}
           </AmountText>
-          <Button onClick={() => alert("Encaminhado para login e reserva !")}>
+          <Button
+            onClick={() => {
+              setBooksInCart([...booksInCart, book]);
+              navigate("/login");
+              alert(
+                `Armazenei o livro em um carrinho para após login continuar com a reserva`
+              );
+            }}
+          >
             Alugar
           </Button>
         </ButtonContainer>
