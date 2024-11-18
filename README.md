@@ -1,46 +1,144 @@
-# Getting Started with Create React App
+# **Catálogo e Aluguel de Livros Online**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este é um projeto desenvolvido com **React** e **Typescript** para visualização de catálogo e aluguel de livros online. O site é responsivo e suporta múltiplos idiomas, com um fluxo realista de aluguel utilizando modais e alertas.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## **Funcionalidades**
 
-### `npm start`
+- **Catálogo de livros:** Visualização e busca de livros disponíveis.
+- **Fluxo de aluguel:** Com modais e feedback ao usuário.
+- **Troca de idioma:** Suporte a Português e Inglês.
+- **Responsividade:** Layout adaptado para desktop, tablets e smartphones.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+---
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## **Instalação e Execução**
 
-### `npm test`
+### **Pré-requisitos**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Node.js**: v16 ou superior.
+- Gerenciador de pacotes: **npm** ou **yarn**.
 
-### `npm run build`
+### **Passos para rodar o projeto**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone o repositório:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   ```bash
+   git clone https://github.com/Lcsmattos/snowman-library.git
+   cd snowman-library
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   ```
 
-### `npm run eject`
+2. Instale as dependências:
+   npm install
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+   # ou
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   yarn install
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+3. Execute o projeto em modo de desenvolvimento:
+   npm start
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+   # ou
 
-## Learn More
+   yarn start
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+4. Acesse no navegador:
+   http://localhost:3000
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
+
+## **Simulação de API**
+
+Os dados de livros e fluxos de aluguel estão simulados com mocks localizados em _src/mocks_. Estes mocks replicam o comportamento de chamadas reais à API.
+
+---
+
+## **Tecnologias Utilizadas**
+
+# **Dependências Principais**
+
+•**React e Typescript**: Base do projeto.
+•**Styled-components**: Estilização dinâmica.
+•**Axios**: Simulação de requisições API.
+•**React-hook-form e Yup**: Manipulação e validação de formulários.
+•**React-i18next**: Internacionalização.
+•**React-router-dom**: Navegação.
+
+# **DevDependencies**
+
+•**Cypress**: Testes end-to-end.
+•**ESLint e Prettier**: Padrões de código e formatação.
+
+---
+
+## **Arquitetura e Organização do Projeto**
+
+A arquitetura segue um padrão modular com separação de responsabilidades, utilizando contextos para manipulação global de estados.
+
+cypress # Testes
+src/
+├── assets/ # Imagens do projeto
+├── components/ # Componentes reutilizáveis
+├── contexts/ # Gerenciamento de estado global
+├── i18n/ # Textos da internacionalização
+├── mocks/ # Simulação de dados
+├── pages/ # Páginas do site
+├── routes/ # Separação de rotas do site
+├── services/ # Chamadas ao banco de dados
+├── styles/ # Estilos globais e temas
+├── types/ # Tipagens de objetos globais
+├── utils/ # Funções auxiliares
+
+---
+
+## **Responsividade**
+
+A responsividade foi implementada com **Flexbox** e **Media Queries**, garantindo uma experiência fluida em dispositivos móveis, tablets e desktops.
+
+---
+
+## **Internacionalização**
+
+•Idiomas suportados:
+•Português (pt-BR)
+•Inglês (en-US)
+•Traduções dos textos em src/i18n.
+
+---
+
+## **Testes**
+
+O projeto inclui testes E2E: Executados com Cypress.
+
+**Rodando os testes**:
+
+npx cypress open
+
+---
+
+## **Configuração de Estilo**
+
+Utilizando Styled-components para criar componentes estilizados e reutilizáveis. O foco é na simplicidade e manutenibilidade.
+
+---
+
+## **Como Contribuir**
+
+1. Faça um fork do repositório.
+
+2. Crie uma branch para a sua feature:
+   git checkout -b sua-feature
+
+3. Commit suas alterações:
+   git commit -m 'Adicionando nova feature'
+
+4. Faça o push:
+   git push origin minha-feature
+
+5. Abra um Pull Request.
+
+## **Autor**
+
+Lucas Santos Mattos

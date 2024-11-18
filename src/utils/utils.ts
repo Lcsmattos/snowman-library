@@ -1,4 +1,4 @@
-import { Books } from "../Mocks/Books";
+import { Books } from "../mocks/Books";
 import { Book } from "../types/Book";
 
 export const searchBook = (title: string): Book[] => {
