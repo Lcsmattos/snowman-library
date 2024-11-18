@@ -31,21 +31,29 @@ Este é um projeto desenvolvido com **React** e **Typescript** para visualizaç�
    ```
 
 2. Instale as dependências:
+
+   ```bash
    npm install
 
-   # ou
+   #ou
 
    yarn install
+   ```
 
 3. Execute o projeto em modo de desenvolvimento:
+
+   ```bash
    npm start
 
    # ou
 
    yarn start
+   ```
 
 4. Acesse no navegador:
+   ```bash
    http://localhost:3000
+   ```
 
 ---
 
@@ -129,16 +137,27 @@ Utilizando Styled-components para criar componentes estilizados e reutilizáveis
 1. Faça um fork do repositório.
 
 2. Crie uma branch para a sua feature:
+
+   ```bash
    git checkout -b sua-feature
+   ```
 
 3. Commit suas alterações:
+
+   ```bash
    git commit -m 'Adicionando nova feature'
+   ```
 
 4. Faça o push:
+   ```bash
    git push origin minha-feature
-
+   ```
 5. Abra um Pull Request.
 
 ## **Autor**
 
 Lucas Santos Mattos
+
+```
+
+```
