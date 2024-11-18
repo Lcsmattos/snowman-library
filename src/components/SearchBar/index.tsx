@@ -1,10 +1,12 @@
 import { useState } from "react";
-import LoupeIcon from "../../assets/loupe.png";
-import Loading from "../Loading";
 
-import { SearchContainer, SearchIcon, SearchInput } from "./styles";
+import { Loading } from "../Loading";
+
+import LoupeIcon from "../../assets/loupe.png";
 import BookService from "../../services/BookService";
 import { useBooks } from "../../context/useBooks";
+
+import { SearchContainer, SearchIcon, SearchInput } from "./styles";
 
 export function SearchBar() {
   const [search, setSearch] = useState<string>("");

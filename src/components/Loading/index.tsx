@@ -1,11 +1,11 @@
 import React from "react";
 import { Container, Spinner, Backdrop } from "./styles";
 
-interface LoadingProps {
+interface Props {
   active: boolean;
 }
 
-const Loading: React.FC<LoadingProps> = ({ active }) => {
+export function Loading({ active }: Props) {
   if (!active) return null;
 
   return (
@@ -15,6 +15,4 @@ const Loading: React.FC<LoadingProps> = ({ active }) => {
       </Container>
     </Backdrop>
   );
-};
-
-export default Loading;
+}
