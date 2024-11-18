@@ -63,9 +63,9 @@ Os dados de livros e fluxos de aluguel estão simulados com mocks localizados em
 
 ---
 
-## **Tecnologias Utilizadas**
+# **Tecnologias Utilizadas**
 
-# **Dependências Principais**
+## **Dependências Principais**
 
 - **React e Typescript**: Base do projeto.
 - **Styled-components**: Estilização dinâmica.
@@ -74,7 +74,7 @@ Os dados de livros e fluxos de aluguel estão simulados com mocks localizados em
 - **React-i18next**: Internacionalização.
 - **React-router-dom**: Navegação.
 
-# **DevDependencies**
+## **DevDependencies**
 
 - **Cypress**: Testes end-to-end.
 - **ESLint e Prettier**: Padrões de código e formatação.
@@ -89,14 +89,14 @@ cypress # Testes
 src/  
 ├── assets/ # Imagens do projeto  
 ├── components/ # Componentes reutilizáveis  
-├── contexts/ # Gerenciamento de estado global
-├── i18n/ # Textos da internacionalização
-├── mocks/ # Simulação de dados
-├── pages/ # Páginas do site
-├── routes/ # Separação de rotas do site
-├── services/ # Chamadas ao banco de dados
-├── styles/ # Estilos globais e temas
-├── types/ # Tipagens de objetos globais
+├── contexts/ # Gerenciamento de estado global  
+├── i18n/ # Textos da internacionalização  
+├── mocks/ # Simulação de dados  
+├── pages/ # Páginas do site  
+├── routes/ # Separação de rotas do site  
+├── services/ # Chamadas ao banco de dados  
+├── styles/ # Estilos globais e temas  
+├── types/ # Tipagens de objetos globais  
 ├── utils/ # Funções auxiliares
 
 ---
@@ -157,7 +157,3 @@ Utilizando Styled-components para criar componentes estilizados e reutilizáveis
 ## **Autor**
 
 Lucas Santos Mattos
-
-```
-
-```
