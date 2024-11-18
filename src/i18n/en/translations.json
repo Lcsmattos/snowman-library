@@ -8,8 +8,19 @@
     "sinopse": "Sinopse",
     "year_of_publication": "Year of publication"
   },
+  "loginBox": {
+    "header": "Access your account",
+    "password": "Password",
+    "login": "Login",
+    "login_with": "Login With"
+  },
   "messages": {
     "not_found": "Oops! No data found."
+  },
+  "errorMessages": {
+    "email_required": "Email Required",
+    "email_invalid": "Invalid Email",
+    "password_required": "Password Required"
   },
   "book": {
     "Duna": "Dune",

@@ -40,6 +40,7 @@ export function Input({
           control={control}
           render={({ field: { onChange, value } }) => (
             <InputContent
+              name={name}
               value={value}
               onChange={onChange}
               type={passwordType && HidePassword ? "password" : "text"}

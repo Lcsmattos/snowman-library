@@ -22,7 +22,9 @@ export function Home() {
       <Header />
       <BodyContainer>
         {books && books.length > 0 ? (
-          books.map((book) => <BookCard key={book.id} book={book} />)
+          books.map((book) => (
+            <BookCard className="book-card" key={book.id} book={book} />
+          ))
         ) : (
           <NotFound />
         )}

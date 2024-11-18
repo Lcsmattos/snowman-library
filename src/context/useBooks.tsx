@@ -11,8 +11,10 @@ import BookService from "../services/BookService";
 
 interface BooksContextData {
   books: Book[];
+  booksInCart: Book[];
   fetchBooks: () => Promise<void>;
   setBooks: React.Dispatch<React.SetStateAction<Book[]>>;
+  setBooksInCart: React.Dispatch<React.SetStateAction<Book[]>>;
   loading: boolean;
 }
 
@@ -22,6 +24,7 @@ export const BooksProvider: React.FC<{ children: ReactNode }> = ({
   children,
 }) => {
   const [books, setBooks] = useState<Book[]>([]);
+  const [booksInCart, setBooksInCart] = useState<Book[]>([]);
   const [loading, setLoading] = useState(false);
 
   const fetchBooks = useCallback(async () => {
@@ -39,11 +42,13 @@ export const BooksProvider: React.FC<{ children: ReactNode }> = ({
   const value = useMemo(
     () => ({
       books,
+      setBooks,
       fetchBooks,
       loading,
-      setBooks,
+      booksInCart,
+      setBooksInCart,
     }),
-    [books, fetchBooks, loading]
+    [books, fetchBooks, loading, booksInCart, setBooksInCart]
   );
 
   return (

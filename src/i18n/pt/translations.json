@@ -8,10 +8,20 @@
     "sinopse": "Descrição",
     "year_of_publication": "Ano de publicação"
   },
+  "loginBox": {
+    "header": "Acesse sua conta",
+    "password": "Senha",
+    "login": "Entrar",
+    "login_with": "Login Com"
+  },
   "messages": {
     "not_found": "Ops! Nenhum dado encontrado."
   },
-
+  "errorMessages": {
+    "email_required": "Email Obrigatório",
+    "email_invalid": "Email Inválido",
+    "password_required": "Senha Obrigatória"
+  },
   "book": {
     "Duna": "Duna",
     "O Hobbit": "O Hobbit",
