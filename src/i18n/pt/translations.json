@@ -1,0 +1,65 @@
+{
+  "header": {
+    "subtitle": "locadora de Livros"
+  },
+  "cards": {
+    "available": "Disponíveis",
+    "author": "Autor",
+    "sinopse": "Descrição",
+    "year_of_publication": "Ano de publicação"
+  },
+  "loginBox": {
+    "header": "Acesse sua conta",
+    "password": "Senha",
+    "login": "Entrar",
+    "login_with": "Login Com"
+  },
+  "messages": {
+    "not_found": "Ops! Nenhum dado encontrado."
+  },
+  "errorMessages": {
+    "email_required": "Email Obrigatório",
+    "email_invalid": "Email Inválido",
+    "password_required": "Senha Obrigatória"
+  },
+  "book": {
+    "Duna": "Duna",
+    "O Hobbit": "O Hobbit",
+    "A Guerra dos Tronos": "A Guerra dos Tronos",
+    "Neuromancer": "Neuromancer",
+    "Eragon: O Ciclo da Herança": "Eragon: O Ciclo da Herança",
+    "O Nome do Vento": "O Nome do Vento",
+    "Blade Runner": "Blade Runner",
+    "1984": "1984",
+    "O Conto da Aia": "O Conto da Aia",
+    "O Senhor dos Anéis: A Sociedade do Anel": "O Senhor dos Anéis: A Sociedade do Anel",
+    "A Máquina do Tempo": "A Máquina do Tempo",
+    "Fahrenheit 451": "Fahrenheit 451",
+    "O Homem do Castelo Alto": "O Homem do Castelo Alto",
+    "Harry Potter e a Pedra Filosofal": "Harry Potter e a Pedra Filosofal",
+    "Percy Jackson e o Ladrão de Raios": "Percy Jackson e o Ladrão de Raios",
+    "Star Wars: O Império Contra-Ataca": "Star Wars: O Império Contra-Ataca",
+    "O Guia do Mochileiro das Galáxias": "O Guia do Mochileiro das Galáxias",
+    "A Mão Esquerda da Escuridão": "A Mão Esquerda da Escuridão"
+  },
+  "sinopse": {
+    "Duna": "Paul Atreides, um jovem príncipe, se vê em meio a uma batalha intergaláctica pelo controle de um planeta desértico e valioso.",
+    "O Hobbit": "Bilbo Bolseiro, um hobbit, é arrastado para uma aventura cheia de perigos para recuperar um tesouro perdido.",
+    "A Guerra dos Tronos": "No mundo de Westeros, famílias disputam o trono de ferro, com lutas de poder, traição e magia.",
+    "Neuromancer": "Case, um hacker, é contratado para um trabalho perigoso que o levará ao centro de uma rede de inteligência artificial.",
+    "Eragon: O Ciclo da Herança": "Eragon, um jovem fazendeiro, encontra um ovo de dragão e se vê forçado a embarcar em uma jornada para salvar seu mundo.",
+    "O Nome do Vento": "Kvothe, um herói lendário, narra sua própria história, desde sua infância até os feitos heroicos que o tornaram famoso.",
+    "Blade Runner": "Rick Deckard, um caçador de replicantes, deve caçar e ‘aposentar’ androides ilegais em um futuro distópico.",
+    "1984": "Em um futuro totalitário, Winston Smith luta contra um regime opressor que controla todos os aspectos da vida das pessoas.",
+    "O Conto da Aia": "Em um futuro distópico, as mulheres são controladas por um regime totalitário e forçadas a cumprir papéis específicos na sociedade.",
+    "O Senhor dos Anéis: A Sociedade do Anel": "Frodo Bolseiro, um hobbit, recebe a missão de destruir o Um Anel e assim salvar a Terra-média.",
+    "A Máquina do Tempo": "Um cientista viaja no tempo e testemunha as mudanças drásticas na sociedade humana, desde um futuro distante até a decadência do planeta.",
+    "Fahrenheit 451": "Em um futuro onde os livros são proibidos, Guy Montag é um bombeiro encarregado de queimar livros, mas começa a questionar seu papel na sociedade.",
+    "O Homem do Castelo Alto": "Em uma realidade alternativa, onde os nazistas venceram a Segunda Guerra Mundial, um homem investiga um misterioso livro.",
+    "Harry Potter e a Pedra Filosofal": "Harry Potter descobre que é um bruxo e começa sua jornada na escola de magia Hogwarts.",
+    "Percy Jackson e o Ladrão de Raios": "Percy Jackson, um garoto com problemas de disciplina, descobre que é um semideus e parte em uma missão.",
+    "Star Wars: O Império Contra-Ataca": "Os heróis da Aliança Rebelde enfrentam o império galáctico, enquanto Luke Skywalker busca entender o seu destino.",
+    "O Guia do Mochileiro das Galáxias": "Arthur Dent, um humano comum, é levado em uma viagem intergaláctica após a Terra ser destruída para a construção de uma estrada espacial.",
+    "A Mão Esquerda da Escuridão": "Em um planeta distante, Genly Ai, um emissário, tenta convencer um planeta frio e sem distinção de gêneros a se juntar à união interplanetária."
+  }
+}

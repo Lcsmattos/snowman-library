@@ -1,0 +1,65 @@
+{
+  "header": {
+    "subtitle": "renting books"
+  },
+  "cards": {
+    "available": "Available",
+    "author": "Author",
+    "sinopse": "Sinopse",
+    "year_of_publication": "Year of publication"
+  },
+  "loginBox": {
+    "header": "Access your account",
+    "password": "Password",
+    "login": "Login",
+    "login_with": "Login With"
+  },
+  "messages": {
+    "not_found": "Oops! No data found."
+  },
+  "errorMessages": {
+    "email_required": "Email Required",
+    "email_invalid": "Invalid Email",
+    "password_required": "Password Required"
+  },
+  "book": {
+    "Duna": "Dune",
+    "O Hobbit": "The Hobbit",
+    "A Guerra dos Tronos": "A Game of Thrones",
+    "Neuromancer": "Neuromancer",
+    "Eragon: O Ciclo da Herança": "Eragon: Inheritance Cycle",
+    "O Nome do Vento": "The Name of the Wind",
+    "Blade Runner": "Blade Runner",
+    "1984": "1984",
+    "O Conto da Aia": "The Handmaid's Tale",
+    "O Senhor dos Anéis: A Sociedade do Anel": "The Lord of the Rings: The Fellowship of the Ring",
+    "A Máquina do Tempo": "The Time Machine",
+    "Fahrenheit 451": "Fahrenheit 451",
+    "O Homem do Castelo Alto": "The Man in the High Castle",
+    "Harry Potter e a Pedra Filosofal": "Harry Potter and the Philosopher's Stone",
+    "Percy Jackson e o Ladrão de Raios": "Percy Jackson: The Lightning Thief",
+    "Star Wars: O Império Contra-Ataca": "Star Wars: The Empire Strikes Back",
+    "O Guia do Mochileiro das Galáxias": "The Hitchhiker's Guide to the Galaxy",
+    "A Mão Esquerda da Escuridão": "The Left Hand of Darkness"
+  },
+  "sinopse": {
+    "Duna": "Paul Atreides, a young prince, finds himself in the middle of an intergalactic battle for control of a valuable desert planet.",
+    "O Hobbit": "Bilbo Baggins, a hobbit, is drawn into an adventure full of dangers to recover a lost treasure.",
+    "A Guerra dos Tronos": "In the world of Westeros, families vie for the Iron Throne, with power struggles, betrayal and magic.",
+    "Neuromancer": "Case, a hacker, is hired for a dangerous job that will take him to the center of an artificial intelligence network.",
+    "Eragon: O Ciclo da Herança": "Eragon, a young farmer, finds a dragon egg and is forced to embark on a journey to save his world.",
+    "O Nome do Vento": "Kvothe, a legendary hero, tells his own story, from his childhood to the heroic deeds that made him famous.",
+    "Blade Runner": "Rick Deckard, a replicant hunter, must hunt down and 'retire' illegal androids in a dystopian future.",
+    "1984": "In a totalitarian future, Winston Smith fights against an oppressive regime that controls every aspect of people's lives.",
+    "O Conto da Aia": "In a dystopian future, women are controlled by a totalitarian regime and forced to fulfill specific roles in society.",
+    "O Senhor dos Anéis: A Sociedade do Anel": "Frodo Baggins, a hobbit, is tasked with destroying the One Ring and saving Middle-earth.",
+    "A Máquina do Tempo": "A scientist travels through time and witnesses the drastic changes in human society, from the distant future to the decay of the planet.",
+    "Fahrenheit 451": "In a future where books are banned, Guy Montag is a firefighter tasked with burning books, but begins to question his role in society.",
+    "O Homem do Castelo Alto": "In an alternate reality, where the Nazis won World War II, a man investigates a mysterious book.",
+    "Harry Potter e a Pedra Filosofal": "Harry Potter discovers he is a wizard and begins his journey at Hogwarts School of Magic.",
+    "Percy Jackson e o Ladrão de Raios": "Percy Jackson, a boy with discipline problems, discovers he is a demigod and sets out on a mission.",
+    "Star Wars: O Império Contra-Ataca": "The heroes of the Rebel Alliance face the galactic empire, as Luke Skywalker seeks to understand his destiny.",
+    "O Guia do Mochileiro das Galáxias": "Arthur Dent, an ordinary human, is taken on an intergalactic journey after Earth is destroyed to build a space highway.",
+    "A Mão Esquerda da Escuridão": "On a distant planet, Genly Ai, an emissary, tries to convince a cold, gender-neutral planet to join the interplanetary union."
+  }
+}
