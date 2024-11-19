@@ -8,8 +8,12 @@ import {
   HeaderContainer,
   HeaderTextSubTitle,
   HeaderTextTitle,
+  LeftContainer,
   LogoAndTextContainer,
   LogoImg,
+  NavMenu,
+  NavText,
+  RightContainer,
   TextContainer,
   TopContainer,
 } from "./styles";
@@ -20,8 +24,17 @@ export function Header() {
   return (
     <HeaderContainer>
       <TopContainer>
-        <SearchBar />
-        <LanguageSelector />
+        <LeftContainer>
+          <NavMenu>
+            <NavText href="/">Home</NavText>
+            <NavText href="/login">Login</NavText>
+          </NavMenu>
+        </LeftContainer>
+
+        <RightContainer>
+          <SearchBar />
+          <LanguageSelector />
+        </RightContainer>
       </TopContainer>
 
       <LogoAndTextContainer>

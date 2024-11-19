@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const LanguageContainer = styled.div`
   display: flex;
   align-items: center;
+
   margin-top: 0.4rem;
   border: 3px solid ${(props) => props.theme.colors.secondary};
   border-radius: 50px;

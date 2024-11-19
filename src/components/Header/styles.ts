@@ -18,20 +18,27 @@ export const HeaderContainer = styled.header`
   }
 `;
 
-export const NavMenu = styled.nav`
+export const NavMenu = styled.div`
+  display: flex;
   height: 3rem;
-  gap: 15px;
+  gap: 5rem;
   padding: 0.5rem;
-`;
-
-export const NavText = styled.text`
-  font-size: ${(props) => props.theme.fonts.sizes.g};
 
   @media (max-width: 768px) {
-    font-size: ${(props) => props.theme.fonts.sizes.m};
+    gap: 3rem;
   }
   @media (max-width: 480px) {
-    font-size: ${(props) => props.theme.fonts.sizes.p};
+    gap: 2rem;
+  }
+`;
+
+export const NavText = styled.a`
+  color: inherit;
+  font-size: ${(props) => props.theme.fonts.sizes.gg};
+  cursor: pointer;
+
+  @media (max-width: 768px) {
+    font-size: ${(props) => props.theme.fonts.sizes.g};
   }
 `;
 
@@ -100,8 +107,16 @@ export const HeaderTextSubTitle = styled.text`
 
 export const TopContainer = styled.div`
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+`;
+
+export const LeftContainer = styled.div`
+  display: flex;
+`;
+
+export const RightContainer = styled.div`
+  display: flex;
   flex-direction: column;
   align-items: flex-end;
-  justify-content: flex-end;
-  gap: 1rem;
 `;
