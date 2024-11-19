@@ -6,7 +6,7 @@ export const LoginContainer = styled.div`
   align-items: center;
   justify-content: space-evenly;
   height: 500px;
-  width: 40rem;
+  width: 35rem;
   border: 5px solid darkcyan;
   border-radius: 25px;
   background-color: ${(props) => props.theme.colors.backgroundLogin};
@@ -20,7 +20,7 @@ export const TitleText = styled.text`
 export const InputContainer = styled.div`
   display: flex;
   flex-direction: column;
-  width: 80%;
+  width: 60%;
   gap: 1rem;
   align-items: center;
   justify-content: center;

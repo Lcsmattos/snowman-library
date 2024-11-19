@@ -1,6 +1,6 @@
 // import axios from "axios";
-import { Book } from "../types/Book";
 import { Books } from "../mocks/Books";
+import { Book } from "../types/Book";
 import { searchBook } from "../utils/utils";
 
 class BookService {

@@ -24,11 +24,7 @@ export function BookCard({ book, ...rest }: Props) {
   const { t } = useTranslation();
   return (
     <>
-      <BookContainer
-        img={book.image_url}
-        onClick={() => setIsModalOpen(true)}
-        {...rest}
-      >
+      <BookContainer onClick={() => setIsModalOpen(true)} {...rest}>
         <BookTitle>{t(`book.${book.title}`)}</BookTitle>
         <BookImg src={book.image_url} />
         <InfoContainer>

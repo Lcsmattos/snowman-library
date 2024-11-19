@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const BookContainer = styled.div<{ img: string }>`
+export const BookContainer = styled.div`
   display: flex;
   height: 400px;
   width: 300px;
